@@ -1,0 +1,13 @@
+.msg{
+	border-radius:10px;
+	text-align:center;
+	border:1px solid black;
+}
+
+.friend{
+	background: gray;
+}
+
+.my{
+	background: green;
+}

@@ -1,0 +1,136 @@
+#logo{
+	height:50px;
+	width:99%;
+	padding:5px;
+	background:#5DCFC3;
+	font-weight:600;
+	box-shadow: 0 5px 10px rgba(0,0,0,0.5); 
+	
+	position:fixed;
+}
+#text_logo{
+	font-size:35pt;
+}
+/*------- MENU -----------*/
+#menu{
+	position:fixed;
+	width:100px;
+	height:60%;
+	
+	background:#5DCFC3;
+	top:70px;
+	
+	padding:5px;
+	font-size:16pt;
+	font-weight:600;
+	
+	border-radius:3px;
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+}
+
+#name_menu{
+	position:relative;
+	left:15%;
+	top:10px;
+	
+}
+
+#my_page{
+	margin-top:20px;
+}
+#list_message{
+}
+#list_friend{
+}
+.menu_but{
+	width:100%;
+	height:50px;
+	margin-bottom:5px;
+	border:0px solid #00433C;
+	border-radius:3px;
+	background:#EFFFFD;
+}
+#hesh_tag{
+	position:relative;
+	top:155px;
+	left:15px;
+	font-size:7pt;
+}
+#author{
+	position:relative;
+	top:140px;
+	left:15px;
+	font-size:7pt;
+}
+
+/*------------------- EnD_MENU ------------------------*/
+#messages{
+	position:relative;
+	background: #EFFFFD;
+	padding: 10px;
+	width:400px;
+	
+	left:34%;
+	top:62px;
+	
+	border:5px solid #5DCFC3;
+	
+	box-shadow: 5px 5px 10px rgba(0,0,0,0.5); 
+	
+	border-radius:3px;
+}
+
+.msg{
+	
+}
+
+.friend{
+	background: #BFBFBF;
+	width:46%;
+	border-radius:5px;
+	border:1px solid black;
+	
+	padding:2px;
+}
+
+.my{
+	background: #5DCE51;
+	position:relative;
+	width:50%;
+	left:50%;
+	border-radius:5px;
+	border:1px solid black;	
+	
+	padding:2px;
+}
+
+#panel_msg{
+	position:absolute;
+	top:70px;
+	left:35%;
+}
+
+#input{
+	position:relative;
+	top:7px;
+	left:10px;
+	height:20px;
+	width:320px;
+}
+
+#send{
+	position:relative;
+	top:7px;
+	left:10px;
+	height:25px;
+}
+
+#div_tools{
+	position:fixed;
+	
+	top:90%;
+	left:34%;
+	background: #5DCFC3;
+	height:40px;
+	width:430px;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Друзья</title>
+		<meta name="description" content="CourseWork"/>
+		<meta name="author" content="Anton Zubreev"/>
+		
+		<script src="../js/list_friend.js" defer></script>
+		<link rel="stylesheet" type="text/css" href="../css/list_friend.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	</head>
+		
+	<!-- Здесь начинается отображение -->
+		
+	<body>
+		<div id="logo">
+			<span id="text_logo">НаКарантине</span>
+		</div>
+		<div id="menu">
+			<span id="name_menu">МЕНЮ</span>
+			<button id="my_page" class="menu_but">Моя страница</button >
+			<button id="list_message" class="menu_but">Сообщения</button >
+			<button id="list_friend" class="menu_but">Друзья</button >
+			<span id="hesh_tag">#НаКарантине </span><span id="author">@Зубреев А.И.</span>
+		</div>
+	
+	
+		<div id="friends">
+			<span id="name_list">Список пользователей</span>
+			<div>
+				<button id="allUsers">Все пользователи</button>
+				<button id="myFriend">Мои друзья</button>
+			</div>
+			<!-- Здесь располагается список пользователей -->
+			<div class="friend" id="id">
+				<div class="info info_user">
+					<span class="nickname">Здесь будет список пользователей</span><br>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>

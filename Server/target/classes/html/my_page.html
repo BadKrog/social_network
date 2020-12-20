@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<title>Моя страница</title>
+		<meta name="description" content="CourseWork"/>
+		<meta name="author" content="Anton Zubreev"/>
+		
+		<script src="../js/my_page.js" defer></script>
+		<link rel="stylesheet" type="text/css" href="../css/my_page.css">
+		<script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+	</head>
+		
+	<!-- Здесь начинается отображение -->
+		
+	<body>
+	
+		<div id="menu">
+			<button id="my_page">Моя страница</button >
+			<button id="list_message">Сообщения</button >
+			<button id="list_friend">Друзья</button >
+		</div>
+		
+		<div id="page">
+			<img id="img">Моя фотка</img>
+			<span id="nickname">Nickname</span>
+		</div>
+		<button id="editing">Редактировать страницу</button>
+		
+		
+		<!-- Всплывающее окно редактирования -->
+		<!-- Popup -->
+		<div class="b-popup" id="popup1">
+			<div class="b-popup-content">
+				<form>
+					<p>Введите свой новый никнейм: <input id="nameIn" type="text" required title="Название должно содержать только буквы, пробелы, \'-', ':', '.', ','."></input> <span></span></p>
+				</form>
+				<div>
+					<button id="add">Сохранить</button>
+					<button id="exit">Отменить</button>
+				</div>
+			</div>
+		</div>
+	</body>
+</html>
